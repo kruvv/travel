@@ -542,9 +542,69 @@ header {
 /* Intro styles start */
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: url(../img/intro-bg.jpg) no-repeat center;
   background-size: cover;
+  padding-top: 263px;
+}
+
+.intro__title {
+  max-width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.intro__subtitle {
+  max-width: 546px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 59px;
+}
+
+.search-form__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-form__field {
+  width: 297px;
+  background: transparent url(../img/svg/oval.svg) no-repeat left 6px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.search-form__field::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.search-form__submit {
+  width: 171px;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 15px 39px;
+  background-color: #1b7dff;
+  color: #ffffff;
+  border: 0;
+}
+
+.search-form__submit:hover,
+.search-form__submit:active,
+.search-form__submit:focus {
+    background-color: #186ad7;
 }
 
 /* Intro styles end */
