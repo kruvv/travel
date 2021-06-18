@@ -533,13 +533,13 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  transition: .3s linear;
+  transition: 0.3s linear;
   padding: 20px;
   z-index: 5;
 }
 
 .header_active {
-  background: #0E1D28;
+  background: #0e1d28;
 }
 
 .header__wrapper {
@@ -969,7 +969,7 @@ img {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  margin: auto 0 0 0 ;
+  margin: auto 0 0 0;
 }
 
 .top__card-more:hover,
@@ -979,3 +979,33 @@ img {
 }
 
 /* Top places styles end */
+
+/* Videos styles start */
+
+.videos {
+  width: 100%;
+}
+
+.videos__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video__item {
+  padding-top: 56.25%;
+}
+
+.video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Videos styles end */
+
+/* Footer styles start */
+
+/* Footer styles end */
