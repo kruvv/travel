@@ -1008,4 +1008,45 @@ img {
 
 /* Footer styles start */
 
+.footer {
+  background: #0e1d28;
+  padding: 119px 0;
+}
+
+.footer__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  flex-basis: 50%;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+.footer__menu-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active {
+  opacity: 0.65;
+}
+
 /* Footer styles end */
