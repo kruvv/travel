@@ -528,11 +528,18 @@ img {
   left: 0;
 }
 
-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  transition: .3s linear;
+  padding: 20px;
+  z-index: 5;
+}
+
+.header_active {
+  background: #0E1D28;
 }
 
 .header__wrapper {
