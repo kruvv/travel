@@ -703,6 +703,7 @@ img {
   left: 0;
   transform: translateY(-100%);
   background-color: #fff;
+  margin-top: 25px;
 }
 
 .benefits__cards {
@@ -1334,6 +1335,12 @@ img {
 @media screen and (max-width: 500px) {
   .header__nav {
     padding: 75px 30px;
+  }
+}
+
+@media screen and (max-height: 370px) {
+  .header__item {
+    margin-bottom: 10px;
   }
 }
 
